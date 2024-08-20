@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+            nav{
+                width: 90%;
+                margin:0 5%;
+            }
+            body{
+                margin: 0;
+            }
+            .navbar{
+                padding-top:1%;
+                display: inline-block ;
+            }
+            .navh{
+                font-family:kalam ;
+                display: inline;
+                color: #7a1755; 
+            }
+            .content{
+                width: 50%;
+                display: inline;
+            }
+            img{
+               display: inline-block;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 2%;
+                padding-bottom: 3%;
+                justify-content: space-around;
+            }
+            .col{
+                flex-basis: 33.33333%;
+            }
+            p{
+                font-family:kalam ;
+                color: #7a1755; 
+                margin: 0;
+            }
+            h2{
+                font-family:kalam ;
+                color: #7a1755; 
+                margin: 0;
+            }
+            h3{
+                font-family:kalam ;
+                color: #7a1755; 
+            }
+            button{
+                color: white;
+                width: 200px;
+                height: 50px;
+                background-color: #7a1755;
+                margin-top: 2%;
+            }
+            input{
+                background: inherit;
+                width: 590px;
+                height: 40px;
+            }
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: black;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+                border: solid black;
+                width: 600px;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color:silver;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav>
+            <div>
+            <div class="navbar">
+                <h2 style="color: #7a1755;" class="navh">explor</h2><h2 style="color: black;" class="navh">er</h2>
+            </div>
+            <div style="float:right;" class="navbar">
+                <h3 class="navh">
+                    Home
+                </h3>
+                <h3 class="navh">
+                    Bike Rentals
+                </h3>
+                <h3 class="navh">
+                    Restaurants
+                </h3>
+            </div>
+            </div>
+        </nav>
+        <div style="width: 95%; display: flex; padding-left: 5%;">
+            <div style="width: 30%; padding-top: 5%;padding-left: 5%;">
+                <h3 style="font-size: 24%px; ">
+                    Welcome to Explorer   
+                </h3>
+                <h2 style="font-size: 60px;">
+                    Your Adventure Travel Expert in the South
+                </h2>
+                <div class="dropdown">
+                    <button class="dropbtn">Choose
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div> 
+                <button>Explore</button>
+            </div>
+            <div class="content" style="width: 70%; padding-top: 1%;">
+                <img src="./Asserts/bike.jpeg" width="100%">
+            </div>
+        </div>
+        <br><br>
+        <div style="width:100%">
+            <div style="width:90%; margin: 0 5%; ">
+                <h2 style="font-size: 50px;">
+                    Destinations
+                </h2>
+                <h3 style="font-size: 30px;">
+                    Just for You , Because you and your bike are special for us.   
+                </h3>
+            </div>
+        </div>
+        <div style="width:100%">
+            <div style="width:90%; margin: 0 5%;">
+                <div class="row">
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg" width="98%"><br>
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p>
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg " width="98%">
+                        <br>
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p>
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg" width="98%">
+                        <br>   
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p> 
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%">
+            <div style="width:90%; margin: 0 5%;">
+                <div class="row">
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg" width="98%"><br>
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p>
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg " width="98%">
+                        <br>
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p>
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <img src="./Asserts/bike.jpeg" width="98%">
+                        <br>   
+                        <p style="font-size: 30px; width: 98%;">
+                            Never Ending padding fiels and narrow roads
+                        </p> 
+                        <h2>Pollachi</h2>
+                        <p style="font-size: larger; width:98%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident. Rerum voluptate, atque ea velit vel, dicta magnam at quisquam nisi esse odio, iusto aliquam nemo minus totam repellendus cum.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%;padding: 3% 0; background-color: rgb(227, 224, 224);">
+            <div style="width:90%; margin: 0 5%; ">
+                <div style="display: flex; justify-content: center;">
+                    <div style="width: 50%;">
+                        <h2 style="font-size: 50px;">
+                            Contact Us
+                        </h2>
+                        <p style="font-size: 30px;">
+                            Our Sales Team will reach out to you ASAP
+                        </p>
+                        <label><h2>Name</h2>
+                            <input type="text">
+                        </label>
+                        <br>
+                        <div class="dropdown">
+                            <h2>Your Home Town</h2>
+                            <button class="dropbtn">Choose
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                        <br>
+                        <div class="dropdown">
+                            <h2>Where would you like to go</h2>
+                            <button class="dropbtn">Choose
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                        <br>
+                        <label><h2>Contact Number</h2>
+                            <input type="number">
+                        </label>
+                        <button>Submit Interest</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
